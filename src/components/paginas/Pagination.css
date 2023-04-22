@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/gagalin');
+.pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px 0;
+  margin-top: 40px;
+}
+
+.page-number {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  text-align: center;
+  transition: all 0.3s;
+  color: #972525;
+  font-family: 'Gagalin', sans-serif;
+}
+
+.page-number.active,
+.page-number:hover {
+  background-color: #972525;
+  border-color: #972525;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-number.active {
+  cursor: default;
+}
+
+.button-one,
+.button-two,
+.button-last {
+  font-family: 'Gagalin', sans-serif;
+  color: #972525;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.button-one:hover,
+.button-two:hover,
+.button-last:hover {
+  background-color: #972525;
+  border-color: #972525;
+  color: #fff;
+}
+
+
+@media (max-width: 700px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+
+  .button-one,
+.button-two,
+.button-last {
+  font-family: 'Gagalin', sans-serif;
+  color: #972525;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 11px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.page-number {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #333;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 11px;
+  text-align: center;
+  transition: all 0.3s;
+  color: #972525;
+  font-family: 'Gagalin', sans-serif;
+}
+}
